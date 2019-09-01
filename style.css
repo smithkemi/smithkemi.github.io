@@ -1,0 +1,139 @@
+body {
+	background-color: #d61ba3;
+	font-family: arial;
+}
+h1{
+	font-size:40px;
+	text-align:center;
+	margin-bottom:110px;
+	background:#fcfcfc;
+	color:#d61ba3;
+	font-family: italic;
+	margin-top:0;
+	padding:20px;
+	
+}
+#container {
+	width: 1000px;
+	height: 550px;
+	background color: #673AB7;
+	background-size: cover;
+	margin: 20px auto;
+}
+#calculator {
+	width: 320px;
+	height: 520px;
+	background-color: #f7f8f9;
+	margin: 20px auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20), 0 6px 20px 0 rgba(0,0,0,0.60);
+}
+#result {
+	height: 120px;
+	color:white;
+	border-radius:4px;
+	border-top:4px solid #828A9B;
+	margin-bottom:8px;
+  width: 320px;
+	background:#938a8b;
+  overflow:hidden;
+}
+#history {
+	height: 20px;
+	text-align: right;
+	margin: 0px 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #f8f8f8;
+}
+#output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard {
+	height: 400px;
+}
+#keyboard {
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0px;
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	transition:.2s;
+	cursor:pointer;
+	
+}
+.number, .empty{
+	background-color: #f7f8f9;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+.operator:active, .number:active{
+	font-size: 12px;
+}
+button:nth-child(4){
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	font-size: 20px;
+	background-color: #20b2aa;
+	transition:.2s;
+	cursor:pointer;
+}
+button:nth-child(8){
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	font-size: 20px;
+	background-color: #ffa500;
+	transition:.2s;
+	cursor:pointer;
+}
+button:nth-child(12){
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	font-size: 20px;
+	background-color: #f08080;
+	transition:.2s;
+	cursor:pointer;
+}
+button:nth-child(16){
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	font-size: 20px;
+	background-color: #7d93e0;
+	transition:.2s;
+	cursor:pointer;
+}
+button:nth-child(20){
+	float:left;
+	padding:10px;
+	border-bottom:4px solid #828A9B;
+	border-radius:5px;
+	font-size: 20px;
+	background-color: #9477af;
+	transition:.2s;
+	cursor:pointer;
+}
